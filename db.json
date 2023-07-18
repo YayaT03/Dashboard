@@ -1,0 +1,25 @@
+{
+    "usuarios":[
+        {
+            "id":1,
+            "apellido1": "Lopez",
+            "apellido2": "Mendez",
+            "nombre1": "Anna",
+            "nombre2": "Milena",
+            "username":"anna22",
+            "password": "123456a"
+
+        },
+        {
+            "id":2,
+            "apellido1": "Rojas",
+            "apellido2": "Mesa",
+            "nombre1": "Sara",
+            "nombre2": "Sofia",
+            "username":"ss45",
+            "password": "123456s"
+
+        }  
+    ]
+
+}
