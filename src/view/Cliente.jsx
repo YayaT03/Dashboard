@@ -46,6 +46,14 @@ const Cliente = () => {
 <div className='container-md'>
 <form className="row g-3 needs-validation" novalidate>
 
+
+<div className="col-md-3">
+    <label for="validationCustom02" className="form-label">Codigo Cliente</label>
+    <input type="number" className="form-control" id="validationCustom02" required/>
+    <div className="valid-feedback">
+    </div>
+  </div>
+
   <div className="col-md-3">
     <label for="validationCustom01" className="form-label"> Primer Nombre</label>
     <input type="text" className="form-control" id="validationCustom01"  required/>
@@ -180,7 +188,7 @@ const Cliente = () => {
   </div>
 
 
-  <div className="col-md-3">
+  <div className="col-md-4">
     <label for="validationCustom02" className="form-label">Telefono 1</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
@@ -188,7 +196,7 @@ const Cliente = () => {
   </div>
 
 
-  <div className="col-md-3">
+  <div className="col-md-4">
     <label for="validationCustom02" className="form-label">Telefono2</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
@@ -197,21 +205,21 @@ const Cliente = () => {
 
 
 
-  <div className="col-md-3">
+  <div className="col-md-4">
     <label for="validationCustom02" className="form-label">Pais</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
   </div>
 
-  <div className="col-md-3">
+  <div className="col-md-4">
     <label for="validationCustom02" className="form-label">Departamento</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
   </div>
 
-  <div className="col-md-3">
+  <div className="col-md-4">
     <label for="validationCustom02" className="form-label">Municipio/Ciudad</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
@@ -240,20 +248,6 @@ const Cliente = () => {
   </div>
 </form>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </div>
