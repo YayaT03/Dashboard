@@ -31,7 +31,7 @@ const Proveedores = () => {
           <Link to="Proveedores" className="nav-link" aria-current="page" ><i className="fa-solid fa-parachute-box fa-2xl"></i>Proveedores</Link>
         </li>
         <li className="nav-item center">
-          <Link to="Paquetet" className="nav-link" aria-current="page"><i className="fa-solid fa-box-open fa-2xl"></i>Paquetes Turisticos</Link>
+          <Link to="Paquetet" className="nav-link" aria-current="page"><i className="fa-solid fa-box-open fa-2xl"></i>Paquetes</Link>
         </li>
         <li className="nav-item center">
           <Link to="Destinos" className="nav-link"  aria-current="page"><i className="fa-solid fa-plane fa-2xl"></i>Destinos</Link>
@@ -45,8 +45,23 @@ const Proveedores = () => {
 <br></br>
 <br></br>
 
-
 <div className='container-md'>
+
+<button type="button" className="btn btn-primary" style={{backgroundColor:"#008cba"}} data-bs-toggle="modal" data-bs-target="#exampleModal">
+  REGISTRAR UN NUEVO PROVEEDOR
+</button>
+
+
+<div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div className="modal-dialog modal-xl" >
+  <div className="modal-dialog">
+    <div className="modal-content">
+      <div className="modal-header"style={{backgroundColor:"#008cba"}}>
+        <h5 className="modal-title text-white" id="exampleModalLabel">Ingreso de Proveedores</h5>
+        <button type="button" className="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div className="modal-body">
+
 <form className="row g-3 needs-validation" novalidate>
 
 
@@ -204,7 +219,7 @@ const Proveedores = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom03" className="form-label">Direccion principal</label>
+    <label for="validationCustom03" className="form-label">Direccion</label>
     <input type="text" className="form-control" id="validationCustom03" required/>
     <div className="invalid-feedback">
       Proporciona una ciudad válida.
@@ -217,16 +232,95 @@ const Proveedores = () => {
     <div className="valid-feedback">
     </div>
   </div>
-  
-  
-  <div className="col-12">
-    <button className="btn btn-primary" type="submit">Enviar Registro</button>
+
+  </form>
+</div>
+
+<div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar Registro</button>
+      </div>
+
+    </div>
   </div>
-</form>
+</div>
+</div>
+  
+<br></br>
+<br></br>
+
+
+<div className='container-md'>
+
+<table className="table table-info table-bordered ">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Primero</th>
+      <th scope="col">Último</th>
+      <th scope="col">Handle</th>
+      <th scope="col">Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>
+      <i class="fa-solid fa-pencil"></i>
+      <i class="fa-solid fa-trash"></i>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>
+      <i class="fa-solid fa-pencil" ></i>
+      <i class="fa-solid fa-trash"></i>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+      <td>
+      <i class="fa-solid fa-pencil"></i>
+      <i class="fa-solid fa-trash"></i>
+      </td>
+    </tr>
+
+
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td>
+      <i class="fa-solid fa-pencil"></i> 
+      <i class="fa-solid fa-trash"></i>
+      </td>
+      
+    </tr>
+
+  </tbody>
+</table>
+
 </div>
 
 
-    </div>
+
+
+
+
+</div>
+</div>
+
+
+    
   )
 }
 
