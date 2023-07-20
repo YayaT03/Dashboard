@@ -42,17 +42,113 @@ const Home = () => {
 <br></br>
 <br></br>
 <br></br>
+
 <div className="container-md">
+
   <div className="row align-items-start"style={{backgroundColor:"#008cba"}}>
+
     <div className="col fs-2 text-white">
       Proximas Salidas 
+
+      <table className="table fs-6 table-warning">
+  <thead>
+    <tr>
+    <th scope="col">Nombre</th>
+      <th scope="col">Precio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry</td>
+      
+    </tr>
+  </tbody>
+</table>
+
     </div>
+
     <div className="col fs-2 text-white">
       Paquetes Vigentes
+      <table className="table fs-6 table-warning">
+  <thead>
+    <tr>
+    <th scope="col">Nombre</th>
+      <th scope="col">Precio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry</td>
+      
+    </tr>
+  </tbody>
+</table>
+
     </div>
+
     <div className="col fs-2 text-white">
-     Tabla de Precios 
+     Tabla de Precios
+
+     <table className="table fs-6 table-warning">
+  <thead>
+    <tr>
+    <th scope="col">Nombre</th>
+      <th scope="col">Precio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry</td>
+      
+    </tr>
+  </tbody>
+</table>
+
     </div>
+
+
+
+
+
+
+
+
+
+
+
   </div>
 
 
