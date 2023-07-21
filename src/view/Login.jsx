@@ -7,18 +7,20 @@ import Logo from "../Images/Logo.png"
 const Login = () => {
   return (
     
- <div className="img-fluid"  style={{ 
+ <div>
+  <div className="img-fluid"  style={{ 
   backgroundImage: `url(${process.env.PUBLIC_URL + '/Bg.jpg'})`,
   backgroundSize: 'cover',
   width: `1300px`,
   height: `600px`,
+  opacity:".75",
   
 }}> ,
 
 
 <ul className="nav justify-content-center">
   <li className="nav-item">
-  <img className='rounded-circle border border-5' src={Logo}  alt="logoW" width="150" height="150" aling="center" />
+  <img className='rounded-circle border border-5 ' src={Logo}  alt="logoW" width="150" height="150" aling="center" />
   </li>
 </ul>
     <br></br>
@@ -33,17 +35,17 @@ const Login = () => {
     </div>
 
 
-    <div className="col-6 -md">
+    <div className="col-5 -md">
     <form>
-  <div className="row mb-3">
-    <label for="inputEmail3" className="col-sm-2 col-form-label bg-primary text-white">Usuario</label>
-    <div className="col-sm-10">
+  <div className="row mb-5">
+    <label for="inputEmail3" className="col-sm-3 col-form-label bg-primary text-white">Usuario</label>
+    <div className="col-sm-5">
       <input type="email" className="form-control" id="inputEmail3"/>
     </div>
   </div>
-  <div className="row mb-3">
-    <label for="inputPassword3" className="col-sm-2 col-form-label bg-primary text-white">Contraseña</label>
-    <div className="col-sm-10">
+  <div className="row mb-5">
+    <label for="inputPassword3" className="col-sm-3 col-form-label bg-primary text-white">Contraseña</label>
+    <div className="col-sm-5">
       <input type="password" className="form-control" id="inputPassword3"/>
     </div>
   </div>
@@ -53,6 +55,7 @@ const Login = () => {
     </div>
   </div>
         
+    </div>
     </div>
     </div>
     
