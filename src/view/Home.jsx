@@ -16,23 +16,23 @@ const Home = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
       <li className="nav-item center">
-          <Link to="/" className="nav-link" aria-current="page" ><i className="fa-solid fa-house fa-2xl"></i>Inicio</Link>
+          <Link to="/" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page" ><i className="fa-solid fa-house fa-2xl"></i>Inicio</Link>
         </li>
         <li className="nav-item center">
-          <Link to="Cliente" className="nav-link" aria-current="page"><i className="fa-sharp fa-solid fa-person fa-2xl"></i>Clientes</Link>
+          <Link to="Cliente" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page"><i className="fa-sharp fa-solid fa-person fa-2xl"></i>Clientes</Link>
           <i class="fa-solid fa-people-simple"></i>
         </li>
         <li className="nav-item center">
-          <Link to="Reserva" className="nav-link" aria-current="page" ><i className="fa-solid fa-hotel fa-2xl"></i>Reservas</Link>
+          <Link to="Reserva" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page" ><i className="fa-solid fa-hotel fa-2xl"></i>Reservas</Link>
         </li>
         <li className="nav-item center">
-          <Link to="Proveedores" className="nav-link" aria-current="page" ><i className="fa-solid fa-parachute-box fa-2xl"></i>Proveedores</Link>
+          <Link to="Proveedores" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page" ><i className="fa-solid fa-parachute-box fa-2xl"></i>Proveedores</Link>
         </li>
         <li className="nav-item center">
-          <Link to="Paquetet" className="nav-link" aria-current="page"><i className="fa-solid fa-box-open fa-2xl"></i>Paquetes</Link>
+          <Link to="Paquetet" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page"><i className="fa-solid fa-box-open fa-2xl"></i>Paquetes</Link>
         </li>
         <li className="nav-item center">
-          <Link to="Destinos" className="nav-link"  aria-current="page"><i className="fa-solid fa-plane fa-2xl"></i>Destinos</Link>
+          <Link to="Destinos" className="nav-link" style={{color:"#e3e8ea"}}  aria-current="page"><i className="fa-solid fa-plane fa-2xl"></i>Destinos</Link>
         </li>
       </ul>
     </div>
@@ -53,8 +53,8 @@ const Home = () => {
       <table className="table fs-6 table-warning">
   <thead>
     <tr>
-    <th scope="col">Nombre</th>
-      <th scope="col">Precio</th>
+    <th scope="col">Destino</th>
+      <th scope="col">Fecha</th>
     </tr>
   </thead>
   <tbody>

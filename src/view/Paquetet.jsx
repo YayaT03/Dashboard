@@ -17,23 +17,23 @@ const Paquetet = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
       <li className="nav-item center">
-          <Link to="Home" className="nav-link" aria-current="page" ><i className="fa-solid fa-house fa-2xl"></i>Inicio</Link>
+          <Link to="Home" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page" ><i className="fa-solid fa-house fa-2xl"></i>Inicio</Link>
         </li>
         <li className="nav-item center">
-          <Link to="Cliente" className="nav-link" aria-current="page"><i className="fa-sharp fa-solid fa-person fa-2xl"></i>Clientes</Link>
+          <Link to="Cliente" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page"><i className="fa-sharp fa-solid fa-person fa-2xl"></i>Clientes</Link>
           <i class="fa-solid fa-people-simple"></i>
         </li>
         <li className="nav-item center">
-          <Link to="Reserva" className="nav-link" aria-current="page" ><i className="fa-solid fa-hotel fa-2xl"></i>Reservas</Link>
+          <Link to="Reserva" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page" ><i className="fa-solid fa-hotel fa-2xl"></i>Reservas</Link>
         </li>
         <li className="nav-item center">
-          <Link to="Proveedores" className="nav-link" aria-current="page" ><i className="fa-solid fa-parachute-box fa-2xl"></i>Proveedores</Link>
+          <Link to="Proveedores" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page" ><i className="fa-solid fa-parachute-box fa-2xl"></i>Proveedores</Link>
         </li>
         <li className="nav-item center">
-          <Link to="Paquetet" className="nav-link" aria-current="page"><i className="fa-solid fa-box-open fa-2xl"></i>Paquetes</Link>
+          <Link to="Paquetet" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page"><i className="fa-solid fa-box-open fa-2xl"></i>Paquetes</Link>
         </li>
         <li className="nav-item center">
-          <Link to="Destinos" className="nav-link"  aria-current="page"><i className="fa-solid fa-plane fa-2xl"></i>Destinos</Link>
+          <Link to="Destinos" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page"><i className="fa-solid fa-plane fa-2xl"></i>Destinos</Link>
         </li>
       </ul>
     </div>
@@ -114,7 +114,7 @@ const Paquetet = () => {
 
 <div className='container-md'>
 
-<table className="table table-info table-bordered ">
+<table className="table table-primary table-bordered ">
   <thead>
     <tr>
       <th scope="col">Id</th>
@@ -131,8 +131,8 @@ const Paquetet = () => {
       <td>Otto</td>
       <td>@mdo</td>
       <td>
-      <i class="fa-solid fa-pencil"></i>
-      <i class="fa-solid fa-trash"></i>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
       </td>
     </tr>
     <tr>
@@ -141,8 +141,8 @@ const Paquetet = () => {
       <td>Thornton</td>
       <td>@fat</td>
       <td>
-      <i class="fa-solid fa-pencil" ></i>
-      <i class="fa-solid fa-trash"></i>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
       </td>
     </tr>
     <tr>
@@ -150,8 +150,8 @@ const Paquetet = () => {
       <td colspan="2">Larry the Bird</td>
       <td>@twitter</td>
       <td>
-      <i class="fa-solid fa-pencil"></i>
-      <i class="fa-solid fa-trash"></i>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
       </td>
     </tr>
 
@@ -162,8 +162,8 @@ const Paquetet = () => {
       <td>Thornton</td>
       <td>@fat</td>
       <td>
-      <i class="fa-solid fa-pencil"></i> 
-      <i class="fa-solid fa-trash"></i>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
       </td>
       
     </tr>
