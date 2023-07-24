@@ -21,7 +21,7 @@ const Cliente = () => {
         </li>
         <li className="nav-item center">
           <Link to="Cliente" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page"><i className="fa-sharp fa-solid fa-person fa-2xl"></i>Clientes</Link>
-          <i class="fa-solid fa-people-simple"></i>
+          <i className="fa-solid fa-people-simple"></i>
         </li>
         <li className="nav-item center">
           <Link to="Reserva" className="nav-link" style={{color:"#e3e8ea"}}  aria-current="page" ><i className="fa-solid fa-hotel fa-2xl"></i>Reservas</Link>
@@ -51,7 +51,7 @@ const Cliente = () => {
 </button>
 
 
-<div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div className="modal-dialog modal-xl" >
   <div className="modal-dialog">
     <div className="modal-content">
@@ -61,37 +61,37 @@ const Cliente = () => {
       </div>
       <div className="modal-body">
         
-      <form className="row g-3 needs-validation" novalidate>       
+      <form className="row g-3 needs-validation" noValidate>       
 <div className="col-md-3">
-    <label for="validationCustom02" className="form-label">Codigo Cliente</label>
+    <label htmlFor="validationCustom02" className="form-label">Codigo Cliente</label>
     <input type="number" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
   </div>
 
   <div className="col-md-3">
-    <label for="validationCustom01" className="form-label"> Primer Nombre</label>
+    <label htmlFor="validationCustom01" className="form-label"> Primer Nombre</label>
     <input type="text" className="form-control" id="validationCustom01"  required/>
     <div className="valid-feedback">  
     </div>
   </div>
 
   <div className="col-md-3">
-    <label for="validationCustom01" className="form-label">Segundo Nombre</label>
+    <label htmlFor="validationCustom01" className="form-label">Segundo Nombre</label>
     <input type="text" className="form-control" id="validationCustom01"  required/>
     <div className="valid-feedback">
     </div>
   </div>
 
   <div className="col-md-3">
-    <label for="validationCustom02" className="form-label">Primer Apellido</label>
+    <label htmlFor="validationCustom02" className="form-label">Primer Apellido</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
   </div>
 
   <div className="col-md-3">
-    <label for="validationCustom02" className="form-label">Segundo Apellido</label>
+    <label htmlFor="validationCustom02" className="form-label">Segundo Apellido</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
@@ -99,7 +99,7 @@ const Cliente = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom04" className="form-label">Tipo Documento</label>
+    <label htmlFor="validationCustom04" className="form-label">Tipo Documento</label>
     <select className="form-select" id="validationCustom04" required>
       <option selected disabled value="">Elige...</option>
       <option>Cédula de Ciudadania</option>
@@ -116,14 +116,14 @@ const Cliente = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">Numero de Identificacion</label>
+    <label htmlFor="validationCustom02" className="form-label">Numero de Identificacion</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
   </div>
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">Fecha de Nacimiento</label>
+    <label htmlFor="validationCustom02" className="form-label">Fecha de Nacimiento</label>
     <input type="date" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
@@ -133,7 +133,7 @@ const Cliente = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom04" className="form-label">Es menor de edad</label>
+    <label htmlFor="validationCustom04" className="form-label">Es menor de edad</label>
     <select className="form-select" id="validationCustom04" required>
       <option selected disabled value="">Elige...</option>
       <option>SI</option>
@@ -147,7 +147,7 @@ const Cliente = () => {
  
 
   <div className="col-md-4">
-    <label for="validationCustom04" className="form-label"> Parentezco(si es menor de edad)</label>
+    <label htmlFor="validationCustom04" className="form-label"> Parentezco(si es menor de edad)</label>
     <select className="form-select" id="validationCustom04" required>
       <option selected disabled value="">Elige...</option>
       <option>Madre</option>
@@ -164,7 +164,7 @@ const Cliente = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">¿Cual?</label>
+    <label htmlFor="validationCustom02" className="form-label">¿Cual?</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
@@ -172,7 +172,7 @@ const Cliente = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom04" className="form-label">Tipo Documento Titular</label>
+    <label htmlFor="validationCustom04" className="form-label">Tipo Documento Titular</label>
     <select className="form-select" id="validationCustom04" required>
       <option selected disabled value="">Elige...</option>
       <option>Cédula de Ciudadania</option>
@@ -188,7 +188,7 @@ const Cliente = () => {
   </div>
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">Numero de Identificacion</label>
+    <label htmlFor="validationCustom02" className="form-label">Numero de Identificacion</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
@@ -196,7 +196,7 @@ const Cliente = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">Correo Electronico</label>
+    <label htmlFor="validationCustom02" className="form-label">Correo Electronico</label>
     <input type="email" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
@@ -204,7 +204,7 @@ const Cliente = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">Telefono 1</label>
+    <label htmlFor="validationCustom02" className="form-label">Telefono 1</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
@@ -212,28 +212,28 @@ const Cliente = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">Telefono2</label>
+    <label htmlFor="validationCustom02" className="form-label">Telefono2</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
   </div>
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">Pais</label>
+    <label htmlFor="validationCustom02" className="form-label">Pais</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
   </div>
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">Departamento</label>
+    <label htmlFor="validationCustom02" className="form-label">Departamento</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
   </div>
 
   <div className="col-md-4">
-    <label for="validationCustom02" className="form-label">Municipio/Ciudad</label>
+    <label htmlFor="validationCustom02" className="form-label">Municipio/Ciudad</label>
     <input type="text" className="form-control" id="validationCustom02" required/>
     <div className="valid-feedback">
     </div>
@@ -241,7 +241,7 @@ const Cliente = () => {
 
 
   <div className="col-md-4">
-    <label for="validationCustom03" className="form-label">Direccion principal</label>
+    <label htmlFor="validationCustom03" className="form-label">Direccion principal</label>
     <input type="text" className="form-control" id="validationCustom03" required/>
     <div className="invalid-feedback">
       Proporciona una ciudad válida.
@@ -253,8 +253,8 @@ const Cliente = () => {
 
 
       <div className="modal-footer">
-        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" className="btn btn-primary">Guardar Registro</button>
+        <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" className="btn text-white"style={{backgroundColor:"#008cba"}}>Guardar Registro</button>
       </div>
 
     </div>
@@ -284,8 +284,8 @@ const Cliente = () => {
       <td>Otto</td>
       <td>@mdo</td>
       <td>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i className="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i className="fa-solid fa-trash"></i></span>
       </td>
     </tr>
     <tr>
@@ -294,17 +294,17 @@ const Cliente = () => {
       <td>Thornton</td>
       <td>@fat</td>
       <td>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i className="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i className="fa-solid fa-trash"></i></span>
       </td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
+      <td colSpan="2">Larry the Bird</td>
       <td>@twitter</td>
       <td>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i className="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i className="fa-solid fa-trash"></i></span>
       </td>
     </tr>
 
@@ -315,8 +315,8 @@ const Cliente = () => {
       <td>Thornton</td>
       <td>@fat</td>
       <td>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i className="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i className="fa-solid fa-trash"></i></span>
       </td>
       
     </tr>

@@ -20,7 +20,7 @@ const Home = () => {
         </li>
         <li className="nav-item center">
           <Link to="Cliente" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page"><i className="fa-sharp fa-solid fa-person fa-2xl"></i>Clientes</Link>
-          <i class="fa-solid fa-people-simple"></i>
+          <i className="fa-solid fa-people-simple"></i>
         </li>
         <li className="nav-item center">
           <Link to="Reserva" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page" ><i className="fa-solid fa-hotel fa-2xl"></i>Reservas</Link>
@@ -70,7 +70,7 @@ const Home = () => {
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry</td>
+      <td colSpan="2">Larry</td>
       
     </tr>
   </tbody>
@@ -100,7 +100,7 @@ const Home = () => {
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry</td>
+      <td colSpan="2">Larry</td>
       
     </tr>
   </tbody>
@@ -131,40 +131,14 @@ const Home = () => {
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry</td>
+      <td colSpan="2">Larry</td>
       
     </tr>
   </tbody>
 </table>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </div>
     </div>

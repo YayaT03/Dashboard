@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Logo from "../Images/Logo.png"
 
 
-
 const Login = () => {
   return (
     
@@ -13,10 +12,9 @@ const Login = () => {
   backgroundSize: 'cover',
   width: `1300px`,
   height: `600px`,
-  opacity:".75",
-  
-}}> ,
 
+
+}}> 
 
 <ul className="nav justify-content-center">
   <li className="nav-item">
@@ -38,13 +36,13 @@ const Login = () => {
     <div className="col-5 -md">
     <form>
   <div className="row mb-5">
-    <label for="inputEmail3" className="col-sm-3 col-form-label bg-primary text-white">Usuario</label>
+    <label htmlFor="inputEmail3" className="col-sm-3 col-form-label  bg-secondary text-white">Usuario</label>
     <div className="col-sm-5">
       <input type="email" className="form-control" id="inputEmail3"/>
     </div>
   </div>
   <div className="row mb-5">
-    <label for="inputPassword3" className="col-sm-3 col-form-label bg-primary text-white">Contraseña</label>
+    <label htmlFor="inputPassword3" className="col-sm-3 col-form-label bg-secondary text-white">Contraseña</label>
     <div className="col-sm-5">
       <input type="password" className="form-control" id="inputPassword3"/>
     </div>

@@ -21,7 +21,7 @@ const Reserva = () => {
                 </li>
                 <li className="nav-item center">
                   <Link to="Cliente" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page"><i className="fa-sharp fa-solid fa-person fa-2xl"></i>Clientes</Link>
-                  <i class="fa-solid fa-people-simple"></i>
+                  <i className="fa-solid fa-people-simple"></i>
                 </li>
                 <li className="nav-item center">
                   <Link to="Reserva" className="nav-link" style={{color:"#e3e8ea"}} aria-current="page" ><i className="fa-solid fa-hotel fa-2xl"></i>Reservas</Link>
@@ -52,7 +52,7 @@ const Reserva = () => {
 </button>
 
 
-<div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div className="modal-dialog modal-lg" >
   <div className="modal-dialog">
     <div className="modal-content">
@@ -62,62 +62,62 @@ const Reserva = () => {
       </div>
       <div className="modal-body">
 
-        <form className="row g-3 needs-validation" novalidate>
+        <form className="row g-3 needs-validation" noValidate>
 
 
           <div className="col-md-3">
-            <label for="validationCustom02" className="form-label">Codigo Reserva</label>
+            <label htmlFor="validationCustom02" className="form-label">Codigo Reserva</label>
             <input type="number" className="form-control" id="validationCustom02" required />
             <div className="valid-feedback">
             </div>
           </div>
 
           <div className="col-md-3">
-            <label for="validationCustom01" className="form-label"> Fecha Reserva </label>
+            <label htmlFor="validationCustom01" className="form-label"> Fecha Reserva </label>
             <input type="date" className="form-control" id="validationCustom01" required />
             <div className="valid-feedback">
             </div>
           </div>
 
           <div className="col-md-3">
-            <label for="validationCustom02" className="form-label">Codigo Cliente</label>
+            <label htmlFor="validationCustom02" className="form-label">Codigo Cliente</label>
             <input type="number" className="form-control" id="validationCustom02" required />
             <div className="valid-feedback">
             </div>
           </div>
 
           <div className="col-md-3">
-            <label for="validationCustom01" className="form-label"> Fecha Salida</label>
+            <label htmlFor="validationCustom01" className="form-label"> Fecha Salida</label>
             <input type="date" className="form-control" id="validationCustom01" required />
             <div className="valid-feedback">
             </div>
           </div>
 
           <div className="col-md-3">
-            <label for="validationCustom01" className="form-label"> Fecha Regreso</label>
+            <label htmlFor="validationCustom01" className="form-label"> Fecha Regreso</label>
             <input type="date" className="form-control" id="validationCustom01" required />
             <div className="valid-feedback">
             </div>
           </div>
 
           <div className="col-md-3">
-            <label for="validationCustom01" className="form-label"> ID paquete turistico</label>
+            <label htmlFor="validationCustom01" className="form-label"> ID paquete turistico</label>
             <input type="number" className="form-control" id="validationCustom01" required />
             <div className="valid-feedback">
             </div>
           </div>
 
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Pasajeros</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div className="mb-3">
+            <label htmlFor="exampleFormControlTextarea1" className="form-label">Pasajeros</label>
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
       
         </form>
         </div>
 
-        <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar Registro</button>
+        <div className="modal-footer">
+        <button type="button" className="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" className="btn text-white"style={{backgroundColor:"#008cba"}}>Guardar Registro</button>
       </div>
 
     </div>
@@ -147,8 +147,8 @@ const Reserva = () => {
       <td>Otto</td>
       <td>@mdo</td>
       <td>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i className="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i className="fa-solid fa-trash"></i></span>
       </td>
     </tr>
     <tr>
@@ -157,8 +157,8 @@ const Reserva = () => {
       <td>Thornton</td>
       <td>@fat</td>
       <td>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i className="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i className="fa-solid fa-trash"></i></span>
       </td>
     </tr>
     <tr>
@@ -166,8 +166,8 @@ const Reserva = () => {
       <td colspan="2">Larry the Bird</td>
       <td>@twitter</td>
       <td>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i className="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i className="fa-solid fa-trash"></i></span>
       </td>
     </tr>
 
@@ -178,8 +178,8 @@ const Reserva = () => {
       <td>Thornton</td>
       <td>@fat</td>
       <td>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i class="fa-solid fa-pencil space-i"></i></span>
-      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i class="fa-solid fa-trash"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}> <i className="fa-solid fa-pencil space-i"></i></span>
+      <span style={{border: "1px solid silver", borderRadius: "0.25em", padding:"0.5em"}}><i className="fa-solid fa-trash"></i></span>
       </td>
       
     </tr>
