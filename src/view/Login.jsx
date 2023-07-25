@@ -13,12 +13,11 @@ const Login = () => {
   width: `1300px`,
   height: `600px`,
 
-
 }}> 
 
 <ul className="nav justify-content-center">
   <li className="nav-item">
-  <img className='rounded-circle border border-5 ' src={Logo}  alt="logoW" width="150" height="150" aling="center" />
+  <img className='rounded-circle border border-5 ' src={Logo}  alt="logoW" width="150" height="150" aling="center"  />
   </li>
 </ul>
     <br></br>
@@ -34,6 +33,7 @@ const Login = () => {
 
 
     <div className="col-5 -md">
+
     <form>
   <div className="row mb-5">
     <label htmlFor="inputEmail3" className="col-sm-3 col-form-label  bg-secondary text-white">Usuario</label>
@@ -41,6 +41,7 @@ const Login = () => {
       <input type="email" className="form-control" id="inputEmail3"/>
     </div>
   </div>
+
   <div className="row mb-5">
     <label htmlFor="inputPassword3" className="col-sm-3 col-form-label bg-secondary text-white">Contraseña</label>
     <div className="col-sm-5">
